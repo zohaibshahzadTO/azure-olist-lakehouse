@@ -1,0 +1,5 @@
+[lint]
+builtins = ["spark", "dbutils", "display"]
+
+[lint.per-file-ignores]
+"databricks/*.py" = ["E402"]

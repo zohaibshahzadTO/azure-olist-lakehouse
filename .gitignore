@@ -1,11 +1,11 @@
-# Terraform — state contains secrets
+# Terraform (state contains your storage key)
 .terraform/
 *.tfstate
 *.tfstate.*
 *.tfplan
 crash.log
 terraform.tfvars
-# Data — download with the script, never commit
+# Data (downloaded by script)
 data/
 # Secrets
 .env
@@ -22,8 +22,8 @@ __pycache__/
 # Databricks / notebooks
 .databricks/
 .ipynb_checkpoints/
-# Editors / OS
-.vscode/
-.idea/
+# OS / editors
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
